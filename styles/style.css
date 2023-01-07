@@ -84,6 +84,10 @@
 }
 
 /* My plans Section */
+.my-plans{
+    
+    padding: 0 250px;
+}
 .section-title {
     font-weight: 700;
     font-size: 40px;
@@ -98,7 +102,6 @@
     display: flex;
     gap: 70px;
     text-align: center;
-    padding: 0 230px;
 }
 
 .plan-title {
@@ -125,30 +128,35 @@
 
 .backgound-gradient {
 
+    padding: 0 180px;
+
+}
+
+.gradient {
+    
     width: 1140px;
     height: 300px;
     margin-top: 130px;
     margin-bottom: 150px;
-    margin-left: 190px;
     background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url("../images/watch.png");
     border-radius: 8px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.gradient {
+.gradient-title {
     padding-top: 59px;
     padding-left: 64px;
-}
-
-.gradient-title {
     font-weight: 700;
     font-size: 40px;
     color: #FFFFFF;
     margin-bottom: 24px;
 }
 
-.gradient-button {}
+.gradient-button {
+    
+    padding-left: 64px;
+}
 
 /* footer Styles */
 
