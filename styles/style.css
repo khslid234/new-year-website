@@ -17,16 +17,16 @@
 .header {
     background: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: initial;
     background-position: center;
-    height: 650px;
+    height: 800px;
 }
 
 .container {
     text-align: right;
     padding-right: 150px;
     padding-left: 780px;
-    padding-top: 150px;
+    padding-top: 210px;
 }
 
 .header-titel {
@@ -83,8 +83,9 @@
     font-size: 40px;
     color: #151414;
     text-align: center;
+    margin-top: 30px;
     margin-bottom: 50px;
-    
+
 }
 
 .section-container {
@@ -99,6 +100,7 @@
     font-weight: 700;
     font-size: 30px;
     color: #151414;
+    margin-top: 16px;
 }
 
 .plan-description {
@@ -106,8 +108,35 @@
     font-size: 25px;
     line-height: 29px;
     color: #737272;
+    margin-top: 15px;
 }
+/* background gradient section */
 
+.backgound-gradient{
+    
+    width: 1140px;
+    height: 300px;
+    margin-top: 130px;
+    margin-bottom: 150px;
+    margin-left: 190px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url("../images/watch.png");
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gradient{
+    padding-top: 59px;
+    padding-left: 64px;
+}
+.gradient-title{
+    font-weight: 700;
+    font-size: 40px;
+    color:#FFFFFF;
+    margin-bottom: 24px;
+}
+.gradient-button{
+
+}
 
 /* footer Styles */
 
@@ -116,6 +145,9 @@
     justify-content: space-between;
     background-color: black;
     padding: 100px 150px;
+}
+.footer a{
+    text-decoration: none;
 }
 
 .footer-title {
@@ -169,4 +201,17 @@
     border: 0;
     border-radius: 5px;
     margin-top: 16px;
+}
+
+/* footer copyright section style */
+
+.copyright-section{
+    text-align: center;
+    width: 100%;
+    height:50px;
+    background: #005FAC;
+}
+.copyright-title{
+    color:#FFFFFF;
+    padding-top: 16px;
 }
