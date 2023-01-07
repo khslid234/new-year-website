@@ -41,6 +41,73 @@
     margin-bottom: 24px;
 }
 
+/* previous of failures section */
+.failure-section {
+    display: flex;
+    width: 1072px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.failure-image {
+    padding-left: 110px;
+
+}
+
+.failure {
+    padding-left: 87px;
+    margin-top: 280px;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failure-description {
+    color: #444343;
+    margin-bottom: 16px;
+    line-height: 26px;
+}
+
+.icons {
+    color: #444343;
+    line-height: 24px;
+}
+
+/* My plans Section */
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.section-container {
+    display: flex;
+    gap: 80px;
+    text-align: center;
+    padding: 0 230px;
+}
+
+.plan-title {
+
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
+
 
 /* footer Styles */
 
@@ -83,7 +150,8 @@
     position: right;
     margin-bottom: 16px;
 }
-.footer input[type="email"]{
+
+.footer input[type="email"] {
     background: black;
     color: #FFFFFF;
     border: 0.1px solid white;
@@ -91,13 +159,14 @@
     width: 100%;
     padding: 12px;
 }
-.btn-secondery{
+
+.btn-secondery {
     font-weight: 500;
     font-size: 20px;
     background: #005FAC;
     color: #FFFFFF;
     padding: 15px 26px;
     border: 0;
-    border-radius: 5px; 
-    margin-top: 16px; 
+    border-radius: 5px;
+    margin-top: 16px;
 }
